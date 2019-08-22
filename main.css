@@ -1,3 +1,32 @@
 body {
+    background-color: gray
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
     
+    
+}
+.product {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1em;
+    margin: 5px;
+    text-align: center;
+
+}
+.images {
+    width: 200px;
+}
+h1 {
+text-align: center;
+
 }
