@@ -9,8 +9,22 @@ body {
     justify-content: space-evenly;
     text-align: center;
     
-    
 }
+
+.ProductRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ProductRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;    
+}
+
 .product {
     width: 400px;
     display: flex;
