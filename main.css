@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(160, 235, 200);
+    background-color: rgb(124, 178, 250)
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     
 }
 
-.ProductRows {
+.productRows {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -29,9 +29,7 @@ header {
     justify-content: flex-start;
     background-color: white;
     margin: 15px;
-    border: 1em;
     padding: 10px;
-    
 }
 
 .itemForSaleTitle {
