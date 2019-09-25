@@ -1,3 +1,87 @@
 body {
+    background-color: #03A9F4
+}
+
+.title {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.mainFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
+
+.productRows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.productCard {
+    width: 350px;
+    box-shadow: 10px 10px 10px #795548;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+}
+
+.itemForSaleTitle {
+    text-align: center;
+    border: 1px solid lightblue;
+}
+
+.images {
+    width: 200px;
+}
+
+.description {
+    text-align: left;
+}
+
+.availability {
+    text-align: left;
+    background-color: darkgray;
+    color: yellow;
+}
+
+.specs {
+    text-align: left;
+    font-weight: bold;
+}
+
+.size {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold; 
+}
+
+.weight {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.specValidity {
+    text-align: left;
+    font-size: smaller;
+}
+
+.pricing {
+    text-align: left;
+}
+
+.pricingDetail {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
